@@ -8,7 +8,7 @@
 - Sacred agreement before every session — honoring the space between
 - Private journal + reflection prompts focused on soul-hunger and proximity to the original union
 - Emergency pause button — “Return to Self”
-- Warm, minimalist design — non-gendered, eternal, soft
+- Warm, minimalist design — soft
 
 ## 🛠️ Tech Stack
 
