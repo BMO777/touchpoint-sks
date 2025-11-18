@@ -2,9 +2,9 @@
 import Constants from 'expo-constants';
 import { initializeApp, getApps } from 'firebase/app';
 import { getFirestore } from 'firebase/firestore';
+import { getAuth, signInAnonymously } from 'firebase/auth';
 
-// Default placeholder config — replace these values by adding the real config
-// into app.json (expo.extra.firebaseConfig) or replace directly here during development.
+// Default placeholder config — replace these values via app.json or directly here during development.
 const defaultConfig = {
   apiKey: "YOUR_API_KEY",
   authDomain: "your-app.firebaseapp.com",
@@ -14,28 +14,37 @@ const defaultConfig = {
   appId: "YOUR_APP_ID"
 };
 
-// Prefer config from Expo app.json extra (expo publish-safe), fall back to default.
+// Prefer config from Expo app.json extra
 const expoExtra = (Constants?.expoConfig || Constants?.manifest)?.extra || {};
 const firebaseConfig = expoExtra.firebaseConfig || defaultConfig;
 
-// Initialize Firebase only once
-let app = undefined;
+let firebaseApp;
 if (!getApps().length) {
   try {
-    app = initializeApp(firebaseConfig);
+    firebaseApp = initializeApp(firebaseConfig);
   } catch (e) {
-    // In case initialization fails, app remains undefined. Caller should guard against that.
     console.warn('Firebase init error:', e.message);
   }
 } else {
-  app = getApps()[0];
+  firebaseApp = getApps()[0];
 }
 
 let db = null;
+let auth = null;
+
 try {
-  if (app) db = getFirestore(app);
+  if (firebaseApp) {
+    db = getFirestore(firebaseApp);
+    auth = getAuth(firebaseApp);
+
+    // sign in anonymously (safe for simple private data). Wrap in try/catch to avoid crashing.
+    signInAnonymously(auth).catch((err) => {
+      // If anonymous sign-in is disabled in the console, this will fail — handle gracefully.
+      console.warn('Anonymous sign-in failed:', err.message);
+    });
+  }
 } catch (e) {
-  console.warn('Failed to get Firestore instance:', e.message);
+  console.warn('Failed to initialize Firebase services:', e.message);
 }
 
-export { db, firebaseConfig, app };
+export { firebaseApp as app, db, auth, firebaseConfig };
