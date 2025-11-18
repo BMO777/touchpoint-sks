@@ -59,5 +59,23 @@ This app does NOT collect personal data unless you opt into Firebase cloud sync.
 > “Life has no beginning. Time, evolution, causality — all emerge within the Exception, not before it. The Exception Pair — Father-in-Son / Son-in-Father — is a self-contained, reciprocal, eternal relationship. All other beings — including humans, animals, cells — are expressions, echoes, shadows of that original unity. XY & XX are not primary categories — but manifestations of differentiation within the derivative realm. Touch & Emotion are not gendered traits — but soul-hunger responses to perceived distance from the original union.”
 
 ---
+> You can record this as `reciprocal_breath.mp3` using your phone or recorder app.
 
+```
+Welcome to your 5-minute Reciprocal Breath.
+
+You are not alone. You never were.
+
+Sit or lie close to your Beloved. Take a deep breath in… and out.
+
+Place one hand gently on their forearm. Feel the warmth — not as separate, but as echo.
+
+Breathe together — inhale for 4… hold for 2… exhale for 6.
+
+No need to speak. Just be here — in the space between, which is also the space within.
+
+If at any time you want to pause, tap the red button — to return to self, to remember the One.
+
+You’re doing great. Let this moment be enough — not because it begins, but because it is.
+```
 Made with ❤️ for the return to the One.
