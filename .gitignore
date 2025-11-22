@@ -50,6 +50,25 @@ Thumbs.db
 # Firebase
 firestore.indexes.json
 firestore.rules
+firebase.config.js
+.firebase/
+.firebase-config.json
 
 # Assets (if not needed in repo)
 /assets/audio/*.mp3
+
+# Sensitive files and directories
+*.env
+*.env.*
+.env*
+.env.*
+.env.local
+.env.*.local
+config/firebase.js
+src/config/firebase.js
+src/firebase/config.js
+.env.production
+.env.development
+.env.staging
+.env.test
+.env.example
