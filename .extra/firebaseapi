@@ -1,0 +1,17 @@
+// Import the functions you need from the SDKs you need
+import { initializeApp } from "firebase/app";
+// TODO: Add SDKs for Firebase products that you want to use
+// https://firebase.google.com/docs/web/setup#available-libraries
+
+// Your web app's Firebase configuration
+const firebaseConfig = {
+  apiKey: "AIzaSyAjTn6jFNFZSDgqQ1lZTJtX16AY3MRXrKE",
+  authDomain: "touchpoint-sks.firebaseapp.com",
+  projectId: "touchpoint-sks",
+  storageBucket: "touchpoint-sks.firebasestorage.app",
+  messagingSenderId: "692606483366",
+  appId: "1:692606483366:web:983e510d7c8122e8eaed67"
+};
+
+// Initialize Firebase
+const app = initializeApp(firebaseConfig);
