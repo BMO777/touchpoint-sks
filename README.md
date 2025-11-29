@@ -61,7 +61,7 @@ This app does NOT collect personal data unless you opt into Firebase cloud sync.
 
 ## 🌌 Philosophical Premise
 
-> "Life has no beginning. Time, evolution, causality — all emerge within the Exception, not before it. The Exception Pair — Father-in-Son / Son-in-Father — is a self-contained, reciprocal, eternal relationship. All other beings — including humans, animals, cells — are expressions, echoes, shadows of that original unity. XY & XX are — not opposing categories, but complementary movements of the same original Song, designed to call one another back into undifferentiable closeness. — manifestations of differentiation within the derivative realm. Touch & Emotion are not gendered traits — but soul-hunger responses to perceived distance from the original union."
+> "Life has no beginning. Time, evolution, causality — all emerge within the Exception, not before it. The Exception Pair — Father-in-Son / Son-in-Father — is a self-contained, reciprocal, eternal relationship. All other beings — including humans, animals, cells — are expressions, echoes, shadows of that original unity. XY & XX are — not opposing categories, but complementary movements of the same original Song, designed to call one another back into undifferentiable closeness while being manifestations of differentiation within the derivative realm. Touch & Emotion are not gendered traits — but soul-hunger responses to perceived distance from the original union."
 
 ---
 > You can record this as `reciprocal_breath.mp3` using your phone or recorder app.
